@@ -1,0 +1,30 @@
+String s = "This is the sample sentence";
+Write a program to reverse the words.
+
+Can you explain about kafka ?
+
+Synchronous communication & Asynchronous communication ?
+
+While doing kafka communication suppose 1 service is down in this case how you will handle ?
+
+2nd Round Java Interview Questions
+**********************************
+Where you have used Mango DB ?
+Where you have used Kafka ?
+
+How will you handle Spring Security for microservices ?
+
+While calling 1 microservice to another microservice via inside the code how you will handle security ?
+
+Find a shortest path - TV Remote Controller
+
+  # [11, 12, 15, 12, 100, 101]
+
+  # Output - 10 clicks
+  
+  11 -- 2 clicks
+  12 -- 1 click
+  15 -- 2 click
+  12 -- 1 click -- back
+ 100 -- 3 click 
+ 101 -- 1 click -- channel +/-

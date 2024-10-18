@@ -1,0 +1,21 @@
+Covalensedigital Java Technical Interview Questions
+***************************************************
+How many years you have used JDK 1.8 ?
+How many years you have used Java 11 ?
+How many years you have used Java 17 ?
+Apart from Java 17 record feature do you know any other features ?
+Do you know types of Stream operations in Jdk 1.8 ?
+Do you know types of methods used in Stream intermediate operations ?
+How many projects you have worked with microservice ?
+Which version of Spring Boot you have used ?
+How many projects you have created in Spring Boot versions ?
+What is solid principles in Java ?
+What are the types of design patterns in Java ?
+Can you tell me some design pattern & it is belongs to what type of design pattern ?
+ Example: Singleton, Factory Pattern called what type of design pattern ?
+Can you tell me annotations under Circuit Breaker ?
+What is Saga Pattern ?
+What are the two approaches for Saga Pattern ?
+How to implement Saga pattern ?
+
+

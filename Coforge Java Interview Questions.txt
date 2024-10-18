@@ -1,0 +1,35 @@
+class StringProcessing{
+
+public static int min = 0;
+public static int max = 0;
+
+public static void printString(){
+
+String maxLenString = "";
+String minLenString = "";
+
+List<String> str = {"Amazon", "Japan", "Arabic", "Australia"};
+
+  // str.stream().filter(s -> s.startsWith("A")).forEach(n -> {System.out.print(n+" ");});
+  
+  List<String> result =  str.stream().filter(s -> s.startsWith("A")).toList();
+  
+  str.stream().forEach( s -> {
+        if(s.length()>max){
+		  max = s.length();
+		  maxLenString = s;
+		}
+		
+		if(s.length()<max){
+		  min = s.length();
+		  minLenString = s;
+		}
+  });
+
+   System.out.println("Max Len String : " + maxLenString +" -- Min Len String is :"+minLenString);
+
+}
+
+List<Integer> numbers = Arrays.asList(100,80,50,40,70,90);
+
+Find the 2nd Highest number.

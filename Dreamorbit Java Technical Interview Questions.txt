@@ -1,0 +1,41 @@
+Write a Program to print list of employee names startwith A & names should be Upper Case.
+
+Change upper case before using forEach.
+
+Can you write immutable class in Java ?
+
+Why Spring Boot comes into picture ?
+
+Do you about Spring Security ? 
+
+How you will implement Spring Security ?
+
+Suppose you are calling 1 to another service via code level how you will handle security in the service level instead of handling in Gateway level.
+
+How you will handle Authorization ? 
+
+How you will handle Authentication in code level ?
+
+https://datatables.net/
+
+can you please create an rest api method with all the colunms search, sorting, pagination.
+
+@GetMapping("/search/{Name}/{Position}/{office}/{age}/{date}")
+public List<Employees> searchEmployess(@PathVariable String Name, @PathVariable String Position, @PathVariable String office, 
+   @PathVariable int age, @PathVariable String date)
+   {
+   
+   
+     return PageRequest.of(employeeService.searchEmployess)
+	 
+How you will implement Many to Many ?
+	 
+Can you please write the syntax for	 Create Index ?
+
+Do you know what is the usage of Index. ?
+	 
+Do you know about LiqueBase ?
+
+Do you know about Git Merge & Git Rebase ?
+
+Do you know Maven ?

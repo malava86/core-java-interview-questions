@@ -1,0 +1,10 @@
+Saksoft Java Technical Interview Questions
+*******************************************
+What you mean by extended Stored Procedures.?
+What you mean by Recursive Stored Procedures.?
+How will you handle errors & exceptions in JSP pages ?
+Difference between forward & sendRedirect ?
+How you will include another jsp page inside the current page ?
+How to get list of beans in Spring ?
+What you mean by exceptions propagations ?
+Explain Final, Finally & Finalize ?

@@ -1,0 +1,28 @@
+Photon Java Technical Interview Questions
+******************************************
+1. How will you find the exception in Azure logs ?
+2. Do you have experience with Support Project ?
+3. Write a program to print string without duplicate chars.
+   String str = "Success";
+   output: str = Sue
+4. How you will partitioning in Kafka ?
+5. Apart from Singleton & Factory pattern any other design pattern do you know ?
+6. What is the real time usage of Singleton Pattern ?
+7. What is the real time usage of Factory pattern ?
+8. Do you know Saga Pattern ?
+9. Which apporach you have used for Saga Pattern ?
+10. What is the benefit of Spring Boot Project.?
+11. What are the Java 17 Features you have used ?
+12. What are the JDK 1.8 Features you have used ?
+13. How you will implement the Spring Security ?
+14. How to call 1 MS to another MS ?
+15. What you mean by Service Registry ?
+16. For API Gateway which one you have used ?
+17. What is the usage of Constructors in Java ?
+18. If Zookeeper is down means what will happen ?
+19. What is the usage of Spring Boot Profiles ?
+20. What is the usage of Configuration in Spring Boot ?
+21. How to change the tomcat port number for Spring Boot ?
+22. Difference between Application Properties & Yaml File.
+23. Do you know Hibernate ?
+24. Difference between Inheritance & Composition.

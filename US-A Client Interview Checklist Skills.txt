@@ -1,0 +1,26 @@
+Mono & Flex asynchronous call reactive programming... 
+
+Kafka --
+Spring Batch -- 
+Java 8, 17... 21 & 22...
+Spring Boot 3 features ?
+
+Bresh up with Reactive Programming Mono & Flex asynchronous API with Spring Boot Rest API..
+
+Client Name: US-A 
+
+Prepares well... lot of projects Java Developers... 
+
+Please note 
+
+java 8 features
+
+webclient
+
+collections, 
+
+asynchornous call with Spring Boot & Spring Batch project
+
+asynchornous call with Spring Boot , Spring Batch  & Kafka project
+
+Senior person means within 1 hour or 2 hours need to do 1 project.

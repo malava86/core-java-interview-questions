@@ -1,0 +1,21 @@
+Quest Global Java Technical Interview Questions
+************************************************
+1. Write a program to print the numbers triangle ?
+
+    1    
+   121   
+  12321  
+ 1234321 
+123454321
+
+2. Different Types of autowiring in Spring ?
+
+3. What are the annotations used in Entity ?
+
+4. Have you used Java 17 Features ?
+
+5. Can you tell me the recent Project Architecture & workflows ?
+
+6. What is the usage of Configuration annotations ?
+
+7. What are the Spring Boot Annotations ?

@@ -1,0 +1,106 @@
+1)	[7,3,2,12,11,3,0]
+	Profit = 12
+	Only 1 buy and 1 sell allowed
+	stock prices cannot be negative
+
+2)	start -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> end (normal linked list)
+	start -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 3 (linked list with loop)
+	return true false if linked list has a loop or not
+
+3)	Identify middle element in a linked list
+
+4)	Compare two strings are same or not. Return true is it is same false otherwise.
+	S1 = “CAR”;
+	S2 = “aRc”;
+
+
+
+
+
+
+1. You're given an array of integers where each integer represents a jump of its value in the array. For instance, the integer 2 represents a jump of two indices forward in the array; the integer -3 represents a jump of three indices backward in the array.
+   If a jump spills past the array's bounds, it wraps over to the other side. For instance, a jump of -1 at index 0 brings us to the last index in the array. Similarly, a jump of 1 at the last index in the array brings us to index 0.
+   Write a function that returns a boolean representing whether the jumps in the array form a single cycle. A single cycle occurs if, starting at any index in the array and following the jumps, every element in the array is visited exactly once before landing back on the starting index.
+
+2. Length Encoding Problems
+     Input: aaayyycccvvvbbaa
+	 Output: a3y3c3v3b2a2
+	 
+3. Find if a linked list a palindrome?
+	Sol: https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+
+4. Find four elements a, b, c and d in an array such that a+b = c+d 
+	Sol: https://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-such-that-ab-cd/
+
+5. Implement LIFO using Stack.
+	Sol: https://www.geeksforgeeks.org/queue-using-stacks/
+
+6. How to achieve thread safety in Singleton class (Reflection, Clone and Serialization)
+	Sol: https://www.journaldev.com/171/thread-safety-in-java-singleton-classes
+
+7. Find Second smallest number in the array.
+
+8. Find First Non-Repeating character in String
+
+9. Suppose you have some guests arriving at a party. For each guest, you are given the arrival and departure time. 
+   When a guest arrives he is given a wine glass and when he leaves he returns that wine glass (it becomes available to be given to another guest). 
+   Find the minimum number of wine glasses needed to serve all the guests. The arrival and departure team can only be between 1800 to 2359 hours.
+   
+   Solution: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station-set-2-map-based-approach/
+   
+10. Pascal's Triangle
+    Solution: https://www.geeksforgeeks.org/pascal-triangle/
+	
+11.Problem statement : Given a string input, form a shortest palindrome by appending characters at the start of the string.
+
+
+ Example:
+
+1. abab -> babab.
+
+2. abcd -> dcbabcd.
+
+3. ananab -> bananab.
+
+ 
+
+ 
+
+Solution :
+
+ 
+
+
+package main.java.com.example;
+
+public class PalindromeExample{
+     public static void main(String args[]){
+         String inputQuery = "ananab";
+         String palindrom = shortestPalindrom(inputQuery);
+         System.out.println("Shortest Palindrom :" + palindrom);
+     }
+     private static String shortestPalindrom(String input){
+         String reverseInput = new StringBuilder(input).reverse().toString();  //rev
+        String appendedInput = input+"#"+reverseInput; //l
+
+        int[] placeHolders = new int[appendedInput.length()];
+
+         for(int i=1;i<appendedInput.length();i++){
+
+             int j=placeHolders[i-1];
+             if(appendedInput.charAt(i)==appendedInput.charAt(j)){
+                 j++;
+                 placeHolders[i]=j;
+             }
+             if(j>0 && appendedInput.charAt(i)!=appendedInput.charAt(j)){
+                 j=placeHolders[j-1];
+
+                 if(appendedInput.charAt(i)==appendedInput.charAt(j)){
+                     placeHolders[i]=j+1;
+                 }
+             }
+
+         }
+         return reverseInput.substring(0,input.length()-placeHolders[appendedInput.length()-1])+input;
+     }
+ }

@@ -1,0 +1,11 @@
+Orion India Java Technical Interview Questions
+***************************************************
+1st non repeating char program using JDK 1.8 Stream.
+Input : Solutions output is : l
+What situtions we can go for OFF & OFFNUllable in Optional class.
+What is functional interface in Java 1.8 why it is not there in Java 1.7 ?
+What is abstraction & encapsulation ?
+Can you explain about Fault Tolarence Pattern & Scalling in Microservices ?
+How you will implement Circuit Breaker Factory Pattern ?
+Diff. b/w findFist() and findAny method ?
+Diff. b/w Array and Collections ?

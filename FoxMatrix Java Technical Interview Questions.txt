@@ -1,0 +1,19 @@
+FoxMatrix Java Technical Interview Questions
+********************************************
+Can you explain Java 17 Features ?
+
+What is lamda expression ? what is the usage ?
+
+What is the return data type for Stream Intermediate Operations.?
+
+Can you explain SAGA Design Pattern ?
+
+What is Transaction Management ?
+
+Can you explain recently you have achieved any Problem Solving ?
+
+Do you have experience with AWS ?
+
+How many services you have used in AWS ?
+
+Diff b/w public cloud & hybrid cloud ?

@@ -1,0 +1,92 @@
+1.Code to Find the median of two sorted arrays without merging.
+2.Find median of two sorted arrays and we need to write test cases positive and negative scenarios
+----------------------------------------------------------------------------------------------
+1. Find first unique character in string abcaabb
+2. Find median of two sorted arrays
+3.Given Input aabbccaa , Display Output as : a2b2c2a2
+4.find the max average of students in a given array
+-----------------------------------------------------------------------------------------------
+
+Q1: Given an integer, find out whether it is a power of 10 or not.
+----------------------------------------------------------------------------------------
+
+
+Question: method should return an integer array with two elements that correctly identifies the location of the longest uniform substring within the input string. The first element of the array should be the starting index of the longest substring and the second element should be the length.
+
+ Example for the input: "abbbccda" the longest uniform substring is "bbb" (which starts at index 1 and is 3 characters long).
+
+------------------------------------------------------------------------------------------------------------
+
+Q1:Find the first non-repeating characters in array of strings.
+Q2:Given an integer, find out whether it is a power of 5 or not
+
+------------------------------------------------------------------------------------------------------------
+1.	find and print the longest contiguous sequence of characters in the given string. For the input "aabbbbbcdAbc", it will find "bbbbbb" as the longest sequence.
+2.	Find highest average score  from  
+String[][] ={{"person1", 87},{"person2", 100},{"person3", 87},{"person2", 20}}
+O/p: 87
+------------------------------------------------------------------------------------------------------------
+•	In a given array {2,3,5,6,0,11,8}
+o	Find the count of the sum of two numbers ie (i+j) = k where k could be anything.
+o	Eg k = 1 so output would be (5,6) (11,0) 
+
+•	Find the frequency of each character (aaaabcccttzzzz)
+
+•	Using Stream API print number (1,2,3,4,5)
+
+------------------------------------------------------------------------------------------------------------
+
+Instructions:
+in Deque class const empty string store data characters in que and stack using Data structures(Add firstelement ,lastelement, remove firstelement, remove lastlement, add first peak and add lastpeak)& 
+
+resolve the runtime errors 
+
+const string  str1 =  " ";
+class Deque
+{
+public:
+void Addfirst(string data);
+void Addlast(string data);
+removefirst(string data);
+removelast(string data);
+Addfirstpeak(string data);
+Addlastpeak(string data);
+};
+
+class Deque::Addfirst(string data)
+{
+return errorexception;
+}
+class Deque::Addlast(string data)
+{
+return  errorexception;
+}
+class Deque::removefirst(string data)
+{
+return  errorexception;
+
+}
+class Deque::removelast(string data)
+{
+return  errorexception;
+
+}
+class Deque::Addfirstpeak(string data)
+{
+return  errorexception;
+}
+class Deque::Addlastpeak(string data)
+{
+return  errorexception;
+}
+
+int main()
+{
+try
+{}
+catch(exception)
+{}
+
+}
+
+

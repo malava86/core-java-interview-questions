@@ -1,0 +1,29 @@
+Java Interview Questions
+*************************
+Diff. b/w fail fast & fail safe ?
+Diff b/w Comparator & Comparable ?
+Diff. b/w HashSet & TreeSet ?
+Diff. Arraylist & Vector ?
+Diff. Arraylist & HashMap ?
+Program to validate the braces ?
+Program for combination of ABC Permutations ?
+Maximum Consecutive occurance of char in String ?
+ Example :
+  aaabbbbcccdddeeebbbbbb
+Find Maximum occurance of char in String ?
+ aaaaaaaabbbbcccdddeeebbbbbb
+To check the given number is prime & also sum of any two numbers is equal to the prime number ?
+also check those pair numbers also prime numbers ?
+Can you please explain about encapsulation ?
+Why we need encapsulation ? what is the usage of encapsulation ?
+When we can go for abstract class ?
+When we can go for interface ?
+What is the usage of functional interface ?
+Why functional interface has only one abstract method ?
+Is it possible to keep more number of default methods & static methods inside functional interface ?
+what is the usage of default methods in functional interface ?
+is it possible to use default methods in normal interface ?
+Write a spring project implement only company users need to access the product other users should not access the product.
+How will you implement these features ? what are the framework you will use ?
+Difference between Optional.of & Optional.ofNullable methods from Optional class ?
+

@@ -1,0 +1,129 @@
+class A{
+
+  static test(){}
+  
+}
+
+
+class B {
+
+   
+    S.o.p(A.test());
+   
+}
+
+is it possible to access the class A without create instanceing  ?
+
+---------------------------------------------------------------------------
+What is the mistake in the following code ?
+
+public class Example {
+    public static void main(String[] args) {
+        List<Integer> numbers = new ArrayList<>();
+        // Add some elements to the list
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(311984);
+        Iterator<Integer> iterator = numbers.iterator();
+        new Thread(() -> {
+            // Simulate some processing time
+            try {
+                 Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                 e.printStackTrace();
+            }
+            // Add an element to the list after a delay
+            numbers.add(4);
+        }).start();
+        // Iterate over the list
+        while (iterator.hasNext()) {
+            Integer number = iterator.next();
+             System.out.println(number);
+            // Simulate some processing time
+            try {
+                 Thread.sleep(500);
+            } catch (InterruptedException e) {
+                 e.printStackTrace();
+            }
+        }
+    }
+}
+-----------------------------------------------------------------------------
+What is the mistake in the following code ?
+
+public class FileReadExample {
+
+    public void readFile (MyFile file) {
+        try  {
+BufferedReader br = new BufferedReader(new FileReader(file.getFileName()));
+            String line;
+            while ((line = br.readLine()) != null) {
+                 System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally(){
+		  br.close();
+		}
+    }
+	
+--------------------------------------------------------------------------
+What is the mistake with the following code ?
+
+String username = request.getParameter("username");
+String password = request.getParameter("password");
+String sql = "SELECT * FROM users WHERE username='" + username + "' AND password='" + password + "'";
+Statement statement = connection.createStatement();
+ResultSet resultSet = statement.executeQuery(sql);
+
+Long l1 = 20.0d;
+
+Is it possible to assign double variable value into long varible ?
+
+-------------------------------------------------------------------------------
+
+list of approved trans
+ set 3 fields merchant name, trans start time, end time
+ 
+ client dont' want to expose the above 3 fileds
+ 
+ 
+ Spring Data JPA
+ Spring Web
+ 
+ @RestController
+ @RequestMapping("/trans")
+ class TransactionController{
+ 
+ 
+  @Autowired
+  TransactionService transService;
+  
+  @PostMapping
+  public List<Transaction> listofTransaction(@RequestBody Transaction trans){
+  
+      return new ResponseEntity<>. transService.listTransactin(trans);
+         
+  }
+  
+ }
+ 
+ How to use the ResponseEntity in the return statement ?
+ 
+ interface TransactionRepository implements JPARepository<Transaction, Integer>
+ {}
+ 
+ https://localhost:8080/trans/list/jp/
+ 
+ What is the significance of static keyword ?
+ How will achive immutable class in Java ?
+ How will achive singleton class in Java ?
+ What are the ways we can break the singleton object in Java ?
+ What is the usage of Serialization in Java ?
+ If we did not use Serialization what will happened ?
+ What is the usage of Marker interface in Java ?
+ How will create market interface in Java ?
+ Do you know supplier in Java ?
+ Do you know producer in Java ?
+ Do you know functional interface in Java ?
+ What is the usage of functional interface in Java ?

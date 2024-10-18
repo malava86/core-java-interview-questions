@@ -1,0 +1,45 @@
+Suppose i have did the Git commit but i did not pushed, if i want to revert the commit 
+
+What is the command i need to use ?
+
+git commit 
+
+git revert
+
+Write a program to reverse the LinkedList ?
+
+What is the usage of Inner class or nested class in Java ?
+
+Write a program to print the subarray of maximum sum.
+
+[2,4,6,-3,7,9,10]
+
+ 2+4+6 == 12
+ 
+ 6+7+9+10-3 = 26
+ 
+ [2,-41,6,-3,7,9,10]
+ ---------------------------------------------
+  
+ 2 -41 + 6 = -33
+ 
+ -3 + 7 + 9 + 10 = 23
+ 
+  6 -3 + 7 + 9 + 10 = 29
+  
+ --------------
+ 
+ 2,-1,6,-3,7,9,10
+ 
+  
+  6 -3 + 7 + 9 + 10 ---29
+  
+  2 -1 + 6 -3 + 7 + 9 + 10 -- 30
+  
+  Have you heared about distributed management ?
+  
+  System Load Balancer ?
+  
+  Network Load Balancer ?
+  
+  What is Load Balancer ?

@@ -1,0 +1,24 @@
+SG Analytics Techinical Java Interview Questions
+*************************************************
+Suppose 1 Particular REST API is taking more time for giving response means what are the steps you will do ?
+What is Service Registry ?
+What is Service Discovery ?
+Which cloud you have used to implement Service Registry & Service Discovery ?
+Have you implemented Service Registry & Service Discovery ?
+How will you implement distributed transaction management ?
+What is the maximum payload size limit for POST Method ?
+Explain the real time usage of immutable class in Java ?
+How will you implement immutable class in Java ?
+Can you give some examples of existing immutable classes in Java ?
+What is Hot String in Java ?
+
+Bare Repository means ?
+
+Git Merge & Git Rebase ?
+
+Have you participated in Code Review ?
+
+Sonar, PMD, eslint, Jacoco
+How to int
+
+static code analyzer.

@@ -1,0 +1,26 @@
+Caspx Java Technical Interview Questions
+****************************************
+Input : Successfully
+Output: Sucesfly
+Write a program to Remove consecutive repeated char using Jdk 1.7 or Jdk 1.8 .
+
+Explain about agile methodology ?
+
+Can you please explain your recent project achitecture ?
+
+Can you explain about Record Feature in Java 17 ?
+
+Do you hava kafka experience ?
+
+In your project where you have used Kafka ?
+
+What you mean by broker ?
+
+What you mean by zookeeper ?
+
+Have you used Kubernetes ?
+
+Have you used docker ?
+
+
+

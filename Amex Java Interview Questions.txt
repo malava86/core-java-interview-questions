@@ -1,0 +1,44 @@
+JPA SQL 
+
+@Repository
+What is the difference between getById & findById ?
+
+public interface StudentRepository extends JPARepository<Student,Integer>
+{
+
+   @Query("Select * from Student where score>=::startScore score<=::endScore")
+   public List<Student> findAllStudents(int startScore, int endScore);
+
+}
+
+in place of @Repository if we use @Service what will happen ?
+
+can you tell some Spring Boot Related Exceptions ?
+
+Can you tell me Distributed transactions ?
+
+Circuit 
+
+Saga Pattern 
+
+CQRS
+
+1 to Many
+Many to 1
+
+Sealed class in Java
+
+can Record accept instance fields ?
+
+what is compact Cannonical Record in Java 17 ?
+
+diamond problem in Java ?
+
+Fail Safe Iterator ?
+
+Creational, Behavioural, Struturel Patterns ?
+
+Can you tell any 2 design patterns from the above ?
+
+How many ways we can break Singleton ?
+

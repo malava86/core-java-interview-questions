@@ -1,0 +1,54 @@
+Instructions:
+in Deque class const empty string store data characters in que and stack using Data structures(Add firstelement ,lastelement, remove firstelement, remove lastlement, add first peak and add lastpeak)& 
+
+resolve the runtime errors 
+
+const string  str1 =  " ";
+class Deque
+{
+public:
+void Addfirst(string data);
+void Addlast(string data);
+removefirst(string data);
+removelast(string data);
+Addfirstpeak(string data);
+Addlastpeak(string data);
+};
+
+class Deque::Addfirst(string data)
+{
+return errorexception;
+}
+class Deque::Addlast(string data)
+{
+return  errorexception;
+}
+class Deque::removefirst(string data)
+{
+return  errorexception;
+
+}
+class Deque::removelast(string data)
+{
+return  errorexception;
+
+}
+class Deque::Addfirstpeak(string data)
+{
+return  errorexception;
+}
+class Deque::Addlastpeak(string data)
+{
+return  errorexception;
+}
+
+int main()
+{
+try
+{}
+catch(exception)
+{}
+
+}
+
+

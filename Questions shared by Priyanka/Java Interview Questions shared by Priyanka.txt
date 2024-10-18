@@ -1,0 +1,33 @@
+Please prepare on architecture of previous project and skills mentioned in resume. Try and practice writing sorting, array, string and data structure programs in notepad.
+Look for algorithm, time complexity.
+
+
+Design patterns
+Microservices vs monolithic
+Comparator vs comparable
+When to use non relational DB over relational DBCoding:
+1: Create a singleton class
+2: input is list of students(name, age, marks) and sort them based on mark and then based on age
+
+s1 A 30 88
+s2 B 28 95
+s3 C 27 85
+s4 D 31 95
+s5 E 26 98 
+
+output: E, D, B, A, C3: Write a logic to break out from all the for loops without returning from current method For {
+    For {
+        For {
+            For { }
+}
+}
+  } (edited) 
+
+program to reverse an integer. Input: 1234 output: 4321
+Program to create a post rest endpoint
+Program to reverse a string with a count Input: HELLO as string and 2 as count. Output: LOHEL
+Custom exceptions
+Multi threading
+Synchronized keyword
+Why using mongodb among other nosql dbs
+Exception handling (edited) 

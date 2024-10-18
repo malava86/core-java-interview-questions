@@ -1,0 +1,20 @@
+
+Assume that there 10 threas accessing the resources at a time, 1 thread accessing the resources taking more than 1 hour, 
+Now 3rd thread also want the same resources in this case how you will handle ?
+
+Assume that you have an single linked list, there are 1000 nodes is available without any api how you will get 998 node value ?
+
+Find 2 Elements in the Array such that Difference Between them is Largest
+List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+
+10 - 15 --> -5
+10 - 8 -->  2
+
+
+
+
+SQL query to find the highest salary employee details from each department
+
+Select e1.department_name, Max(e1.Salary)
+From Employee e1
+GroupBy e1.department_name

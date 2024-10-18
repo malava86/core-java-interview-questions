@@ -1,0 +1,11 @@
+Optimas Java Technical Interview Questions
+*******************************************
+
+What is the usage of @Qualifier annotation ?
+What you mean by IOC ?
+What you mean by Dependency Injection.
+What is the usage of Functional Interface ?
+Difference between Normal Pojo Object & Spring Bean Object ?
+Before Spring Boot what framework you have worked ?
+How you handled Authentication in Spring Boot ?
+What are the Spring Boot Annotations you freuqently used ?

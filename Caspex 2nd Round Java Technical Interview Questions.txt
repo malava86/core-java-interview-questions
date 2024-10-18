@@ -1,0 +1,19 @@
+2,3,6,1,1,2,1 
+
+// 6,2,1
+
+-----------
+
+ int array[]    = {0, 1, 0, 1, 0, 0, 1, 1, 1, 0};
+         printBinaryArray(array); 
+        // Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+// Pre Condition is : should not use temporary array & should not sort the array.
+		
+		    String s = "Welcome";
+        findFrequencyChars(s);
+		
+What is the usage of Lambda Expression in Jdk 1.8 ?
+Difference between abstract class & interface in Java ?
+What is the purpose of immutable class in Java ?
+Find N th highest salary in SQL 
+  Select Emp_Sal dense rank Over

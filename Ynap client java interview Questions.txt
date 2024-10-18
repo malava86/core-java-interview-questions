@@ -1,0 +1,17 @@
+1. If we pass two arguments it will give 1 result this is called what type of functional interface ?
+2. How to Merge 2 stream in Java 8 ?
+3. Do you know design patterns in Java ?
+4. Can you please explain prototype pattern in Java ?
+5. Can you please solid principles in Java ?
+6. How to convert Spring Boot Project as MicroService Project ?
+7. What is the usage of Spring Batch ?
+8. Have you worked SQL Queries ?
+9. Are you able to understood complex queries ?
+10. Have you worked any recent development project ?
+11. Can you tell me 1 small new learning which you have did recently ?
+12. When you have worked development project ? what type of requirement you have worked ?
+13. Can you tell me recent production p1 issue you have worked ? 
+14. What is the SLA for P1 issue ?
+15. Have you worked agile methodology ?
+16. Do you know about AWS ?
+17. Are you having experience in AWS ?

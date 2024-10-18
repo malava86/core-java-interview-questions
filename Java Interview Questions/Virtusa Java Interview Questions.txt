@@ -1,0 +1,36 @@
+Virtusa Java Interview Questions
+********************************
+In your microserivce project where they will maintain database credentials ?
+In what are the ways we can maintain security credentials of database in microserivce project ?
+How will communicate between microserivces ?
+Do you know about Spring Boot Profiling ?
+Do you know about Idem potent in HTTP methods ?
+POST method is idempotent or not ?
+If we want to maintain POST method is idempotent means how will achive programattically ?
+Difference between Sequential Stream & Parallel Stream ?
+Have you ever worked with Parallel Stream ?
+Explain the Global Exception Handler in Spring Boot ?
+In your application how you will show the exeption & errors in the UI ?
+Explain about the HTTP status codes ?
+What are the status codes you have used ?
+What are the Spring Boot annotations you have used ?
+if you want to exclude one class means how you will do in Spring Boot ?
+Explain about stream concept in Java ?
+How will achive shared resources using multithreading ?
+How will authenticate your microserivce project ?
+How will validate certificate between microserivces ? // passing SSL Disabled
+Have you faced any issues while using REST API ?
+How will communicate Angular with Spring Boot REST APIs ?
+What is the component you will use in Angular to call the REST APIs ?
+Have you ever used in Spring Batch ?
+Have you used scheduler annotation in Spring Batch ?
+Do you have knowledge with CI CD Pipeline ?
+Do you have experience with open shift ?
+Have you ever used ISOLATION attributes while using @Transactional annotation ?
+Is it possible to catch runtime exception inside the try - catch block ?
+What type of exceptions will handled inside try catch block ?
+What is the usage of config mappings in open shift ?
+What is pod in open shift ?
+Do you know indexing in Database ?
+
+

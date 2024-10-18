@@ -1,0 +1,32 @@
+Design an api where endpoint is /book/get 
+and o/p is -> This is my First Book Store
+
+Euroko Client
+Feign Client
+
+Intracting Between Microservices
+
+Hystrix in Microservice
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+@Entity
+@Table(name="Employee")
+public class Employee
+{
+    @Id
+    @GeneratedValue(GeneratorType.stratgy=Auto)
+    private id empId;
+    @Column()
+    private String name;
+    
+    @Column
+    @OneToMany(...,cascade=)
+    private Address address;
+}
+
+Rejected Reason:
+****************
+He asked about Cascade attribute but i dont'know anything but now in this time need to say... I am not able to recollect.
+But instead of doing this...I simply said... whatever i know about cascade attributes...
+Then immediately he said am done with my interview.

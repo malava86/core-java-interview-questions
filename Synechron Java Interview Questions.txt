@@ -1,0 +1,75 @@
+Synechron Java Interview Questions
+***********************************
+
+What is the difference between monolithic project & mircoservice projects ?
+
+As the developer point of view what is the advantage of microservice projects ?
+
+As the business point of view what is the advantage of Spring Boot Project ?
+
+Do you microservice design patterns like CQRS, SAGA Pattern ?
+
+Can you write how you will implement Circuit Breaker in Spring Boot Project ?
+
+Sprng Boot Resilance starter
+
+@CircuitBreaker
+CircuitBreakerFactory
+
+public List<Employee> run(){
+
+  return restTemplate.(another microservice url, fallback());
+}
+
+What you mean by Spring Boot Security ? 
+
+How oAuth token internally working ?
+
+How token validation is happening in Spring Boot Security ?
+
+Can you write Spring Boot Specific Annotations ?
+
+How Spring Boot Application annotation works internally ?
+
+How @Enable Auto Configuration works internally ? --> 3 interal activities it will do...are you aware of that ?
+
+How you will write your own Actutator in Spring Boot ?
+
+Write an functional interface in Java ?
+
+@FunctionalInterface
+
+interface Templates
+{
+
+   public String printTemplateName();
+}
+
+ 
+ class TemplateList
+ {
+   public static void main(String args[])
+   {
+   
+       Templates t1 = () ->  "REST API";
+	   
+	   System.out.println(t1.printTemplateName());
+	   
+	}
+}
+
+Why they have created functional interface ? what is the main reason they have created in JDK 1.8 ?
+
+What is the best real time example for functional interface ?
+
+What you mean by Thread Pool ?
+
+How you will create Thread Pool ?
+
+Do you completable future in Java ?
+
+How parallel stream in working in Jdk 1.8 ?
+
+How the parallel pipelines got created internally ?
+
+Print all Prime Numbers b.w 1 to 100 using JDK 1.8 Stream API.

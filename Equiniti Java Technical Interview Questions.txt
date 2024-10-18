@@ -1,0 +1,106 @@
+Equiniti Java Technical Interview Questions
+********************************************
+
+What is the usage of Functional Interface ?
+
+What is the difference between Heap Memory & Stack Memory ?
+
+Have you faced any memory leakage error ?
+
+What is the usage of finally block ?
+
+Can you please explain about Factory Pattern ?
+
+How will you handle exception handling in your Project ?
+
+503 HTTP Status code is used for ?
+
+500 HTTP Status code is used for ?
+
+why String is called as immutable ?
+
+Write a Java program to count the number of occurrences of a character in a string. 
+Example: String str = "abcadca" Output: {a:3, b:1, c:2, d:1}
+
+import java.io.*;
+
+public class TestClass {
+    public static void frequencyChars(String str){
+       
+       Map<Character,Integer> result = new HashMap<Character,Integer>();
+       for(int i=0; i <str.length(); i++){
+           
+           Character ch = str.charAt(i);
+           if(result.contains(ch)){
+               result.put(ch, result.get(ch)+1);
+           }else{
+               result.put(ch,1);
+           }
+           
+       }
+       
+       result.forEach((k,v) -> {
+           System.out.print(k+""+v)
+       });
+       
+        
+    }
+    public static void main(String[] args) {
+        // Read input from STDIN; write output to STDOUT.
+
+       String str = "abcadca";
+       frequencyChars(str);
+
+    }
+}
+
+
+Given a string str of length N, consisting of ‘(‘ and ‘)‘ only, the task is to check whether it is balanced or not. Examples: Input: str = “((()))()()” Output: Balanced, Input: str = “())((())” Output: Not Balanced
+
+
+import java.io.*;
+
+public class TestClass {
+    
+    public static boolean checkIsBalanced(String str){
+        
+        int openBraces = 0; int closeBraces = 0;
+        boolean isBalanced = false;
+        
+        for(int i=0;i<str.length();i++){
+            
+            Character ch = str.charAt(i);
+            if(ch == '('){
+                openBraces++;
+            }
+          
+            
+            if(ch == ')' && openBraces > 1){
+                closeBraces++;
+            }
+        
+        }
+        
+         if(openBraces == closeBraces){
+                isBalanced = true;
+           }else{
+               isBalanced = false;
+           }
+        
+        
+    }
+    
+    public static void main(String[] args) {
+        // Read input from STDIN; write output to STDOUT.
+
+        String str = "((()))";  //((()))()()
+        checkIsBalanced(str);
+
+    }
+}
+
+can you explain about Agile Methodology ?
+
+Have you worked with Spring Security JWT token.?
+
+Can you please explain abstract factory pattern ?

@@ -1,0 +1,19 @@
+
+Suppose if you got 1 blocker ticket, then what are the steps you will take and provide the solutions ?
+
+Suppose 4+ exp person worked 4 story tickets, 6+ person worked 1 story ticket within 1 month.
+Now you are techinical lead how you will motivate the 6+ person ?
+
+Suppose both the person provides the solution you need to select only one solution 
+How you will desire ? what are the criteris you will use to select the solution ?
+
+Out of 1000 records, 
+
+pagination have the 100 records will show at a time, in this case my UI filter options, 
+
+Suppose going to search all the columns in your rest api what you will use Request Params ? Path Varaiable or Request Body ?
+
+What is the best suggestions you gave to your team & they have appreciated to you ?
+
+Please tell any 2 suggestions ?
+

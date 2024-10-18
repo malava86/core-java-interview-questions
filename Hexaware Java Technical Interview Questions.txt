@@ -1,0 +1,34 @@
+Hexaware Java Technical Interview Questions
+*******************************************
+How HashMap is internally working ?
+
+Suppose if i want to store custom employee class as Key in HashMap what are the steps need to do ?
+
+Which design patterns you recently used in your project ?
+
+Real time examples of Singleton Pattern from your recent projects ?
+
+List<String> strings = Arrays.asList{"1,2,3,4", "3,5,8","6,8,7"}
+
+output: 1,2,3,4,5,8,6,7
+
+Prcondition is : need to use JDK 1.8
+
+Write another program {6,7,2,8} target 8 --output : {0,2}
+
+Index 0 is pointed with 6 
+Index 2 is pointed with 2 
+
+Hence 6+2 = 8
+Need to print the index for the sum of target.
+
+How to communicate asynchornous in REST API ?
+
+How to handle failure messages in Kafka ?
+
+How you will handle exception in Spring Boot ?
+
+What is lambda in AWS ?
+
+What are the services you have used in AWS ?
+

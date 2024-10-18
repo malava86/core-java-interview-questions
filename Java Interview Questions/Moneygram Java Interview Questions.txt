@@ -1,0 +1,26 @@
+List<Employee> 
+double salary,
+String name,
+Address address
+
+User MS
+--> getAllUsers---
+---> USER pojo -- user_id
+
+Transaction MS. --- 
+--> getAllTransactions
+--> Transaction pojo ---> transaction id, user_id,
+
+3rd MS 
+--> Report Should contain -- username, userid, phone number, how many transactions, transaction amount,  what is the total transaction amount 
+
+EntityManager,
+
+List<Users>  userList = getAllUsers...
+List<Transaction> transactionList = getAllTransactions.
+
+for(int i=0; i<transactionList.size(); i++){
+
+   Transaction t1 = transactionList.get(i);
+   
+    

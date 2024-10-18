@@ -1,0 +1,24 @@
+Name, Age, Salary,
+
+Sum of Salary > 10000
+
+String s1 = new String("Hello"); --> Heap Memory
+
+Now Hello object got created in Heap memory & got created in String constant pool memory also.
+
+String s2 = "Hello"; ---> String Constant Pool(part of Heap Memory)
+Implement Stack, Queue
+Array & String 
+Time complexity -- 2 for loops
+Better complexity
+Difference between ArrayList & LinkedList ?
+Which one is better in which place ?
+What is the difference between POST & PUT method ?
+Which one is idempotent ?
+What is idempotent ?
+What is API Gateway ?
+Have you developed API Gateway ?
+Why String is immutable in Java ?
+Difference between path variable & request param ?
+
+https://ibm.webex.com/webappng/sites/ibm/dashboard/pmr/urmi.ganguly
