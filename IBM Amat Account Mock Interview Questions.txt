@@ -1,0 +1,23 @@
+Java OOPS concept.
+
+•Data structure : Arrays, Maps, ArrayList, LinkedList, Queues, Stack.
+•SpringBoot Annotations used in your current/previous project?
+•Given a realtime scenarios -Explain which Springboot annotation you will use and    why? 
+•Marker Interfaces in Java?
+•Why Java 8 or 8+ version was used in your current/previous project?
+•Advantage of Streams and Lambda’s?
+•Design patterns used in your current/previous project? Why was it used? 
+•Transaction management and JPA repository(Pagination)?
+•When do you implement micro service architecture? Why was it followed in your current/previous project?
+•When to not migrate from monolithic architecture? Why was it followed in your current/previous project?
+•How do you monitor the latency and transactions in your project?
+•Explain security implementation in your microservice?
+•Explain communication setup b/w your micro services or communication b/w external provider and one of your service in your current/previous project?
+•Fallback mechanism used in your current/previous project?
+•How do you track and debug Production issues in your current/previous project? 
+
+•Code Review and Code Merge Process in your current/previous project?
+
+•(*** Important) Do you have experience on 
+ElasticSearch or Solr? If Yes, What are use cases or scenario’s you have worked on ? Search and Ingestion related questions?
+•Given a large data set (CSV/Excel), how will you implement mechanism to read and store in DB? What could be the possible challenges you would come across will reading and how will you debug/resolve them? 

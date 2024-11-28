@@ -1,0 +1,10 @@
+IBM - Lowes Account Java Lead Interview Questions
+*************************************************
+How will ensure your application is highly available ?
+Suppose if your application is down with Out of Memory issue what is the 1st thing you will do ?
+Do you know about latency ?
+How you will check performance for the REST API ?
+Have you heared about Promothous ? Gifana ?
+Do you know about Memory Management ?
+What is Heap Memory what it contains ?
+What is Stack Memory what it contains ?

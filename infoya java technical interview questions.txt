@@ -1,0 +1,131 @@
+Employee Table
+ eno  name
+ 
+ Department Table
+ 
+  d.no     dname eno
+
+Just you need to print all the columns from the both the tables ? How you will write the query ?
+
+Have you heared about outer join ?
+
+Department Table associated with Many Employees How you will define one to Many in Spring Data JPI ?
+
+getAllTransaction this is the only API need to develop then how you will design ?
+
+Exercise: Manipulating a List of Numbers
+Objective: Given a list of integers, use the Stream API to perform the following operations:
+Filter out the even numbers.
+Multiply each even number by 2.
+Get the sum of all the resulting numbers
+
+publicstaticvoidmain(String[] args) {
+// List of integers
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+		
+		
+	Integer result = numbers.stream().filter(n -> n%2==0).mapToInt(value -> value*2).collect(Collectors.sum()).get();
+		
+forEach is what type of interface ?
+
+https://leetcode.com/problems/roman-to-integer/
+
+What are the types of Method references ?
+
+Have you heared about deadletter queue in Kafka ?
+
+How you will configure Kafka topic ?
+
+Who will send messages inside the topic ?
+
+What are the annotations you will use for Circuit Breaker Pattern ?
+
+How will you change the retry mechanisms for Circuit Breaker Pattern ?
+
+What is open state ? What is close state in Circuit Breaker ?
+
+Have you used SAGA pattern ?
+
+What are the 2 apporaches for SAGA Pattern ?
+
+Explain about Solid Principles ?
+
+Have you participated in code reviews ?
+
+Have you written JUnit Test cases ?
+
+Diff b/w Mock & Inject Mock annotations ?
+
+Suppose you have only one docker instance is running ? now 2 request is coming then you will handle ?
+
+Diff. between Concurrency & Parallel Processing ?
+
+Suppose you got 1 new product for learning the product what are the steps you will take care ?
+
+What is authentication ? What is authorization ?
+
+What is the role of API Gateway ?
+
+Which API Gateway you have used ?
+
+What is Euroke Server ? 
+
+How you have used Zuul API Gateway & Euroka Server ?
+
+Suppose 3 services is running, 2 serives got failed with transactions how you will you trace ?
+
+Benefits of Spring Boot ?
+
+Diff between Controller & RestController ?
+
+Diff between RequestMapping & GetMapping ?
+
+What is the advantages of Spring Data JPA ?
+
+What are the design patterns you have worked ?
+
+What are the Stream Operations ?
+
+What are the JDK 1.8 Features ?
+
+Have you written any cache ?
+
+Have you used Redis cache ?
+
+What is Cachable ? What is Cache Evict ? what is Time to Live ?
+
+What are the ways to optimize the querys ?
+
+If i want to disable the auto configurations means which annotation i need to use ? what is the syntax ?
+
+Difference between Comparable & Comparator ?
+
+What you mean by Two Factor App in Microservice Architecture ?
+
+What are the design patterns you have worked ?
+
+can you explain Factory Pattern ?
+
+What is the difference between Map & FlatMap.?
+
+What is the role of Spring Boot Acutator ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+ 

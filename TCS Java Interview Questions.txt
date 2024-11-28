@@ -1,0 +1,90 @@
+Write a program to sort the employees by username length wise ?
+
+ Employee e1 = new Employee("Sachin",8144260718l);
+ Employee e2 = new Employee("Tendulkar",8144260719l);
+ Employee e3 = new Employee("Virat",8144260717l);
+	
+output:
+
+ Employee e3 = new Employee("Virat",8144260717l);
+ Employee e1 = new Employee("Sachin",8144260718l);
+ Employee e2 = new Employee("Tendulkar",8144260719l);
+
+List down the list of employees based on the departId
+
+@RestController
+@RequestMapping("/employees")
+public class EmployeeController
+{
+
+  @Autowired
+  EmployeeService employeeService;
+  
+  
+  @GetMapping("/findEmployeesByDeptId/{departId}")
+  public List<Employees> findEmployeesByDeptId(@PathVariable int departId)
+  {
+  
+      List<Employees> result = employeeService.findEmployeesByDeptId(departId);
+	  
+	  if(result.isEmpty()){
+	     result = employeeService.findAll();
+	  }
+  
+  }
+  
+}
+
+Can you write your own custom hashmap implementations using LinkedList Structure.
+
+What is the output of the following program ?
+
+public class ClassA {
+    public ClassA() {
+        System.out.println("Class A");
+    }
+    
+    
+    public void print() {
+    	System.out.println("Class A copy"); 
+    }
+   
+}
+ 
+ 
+public class ClassB extends ClassA{
+    public ClassB() {
+        System.out.println("Class B"); 
+    }
+    
+    @override
+    public void print() throws IOException {
+    	System.out.println("Class B copy"); 
+    }
+    
+}
+ 
+public class ClassC extends ClassB{
+    public ClassC() {
+        System.out.println("Class C"); 
+    }
+    
+    @Override
+    public void print() throws IOException{
+    	System.out.println("Class C copy"); 
+    }
+   
+}
+ 
+ 
+public class TestClass {
+    public static void main(String[] args) {
+        ClassA obj = new ClassC();
+        obj.print(); 
+        
+    }
+}
+
+If Spring Boot Application is going to throw out of memory error then how you will predict ?
+
+In Spring Boot Application if i want to connect 2 different database connection how you will do ?

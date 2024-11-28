@@ -1,0 +1,9 @@
+Saksoft 3rd Round Java Interview Questions
+******************************************
+When converting from complex outer joins in oracle to Hana , how you handled null checks in Hana ?
+
+How soon will you able to join ?
+
+if the question is not able to understand from the US customer then how you will ask ?
+
+How you have used Mongo DB & SAP Hana DB for microservices projects ?

@@ -1,0 +1,22 @@
+Infosys Java 1st Round Technical Interview Questions
+*****************************************************
+What are the design patterns do you know ?
+What are the types of design patterns is there in Java ?
+Can you explain the real time usage of Factory Pattern ?
+What is aggregation ? What is composition ?
+What are the bean scopes available in Spring Boot ?
+What are the different types of dependency injection is there in Spring Boot ?
+How Spring Boot Starter dependencies are working ?
+How auto configurations is working internally in Spring Boot ?
+What are the streotype annotations available in Spring Boot ? Which annotations is parent to all ?
+How to read the properties file values in Spring Boot ?
+You have Application.properties & Application.yaml now in Spring Boot which one will take ?
+Have you heared about @Resource annotations will it solve ambhiguity problems ?
+Can you explain the microservice architecture ?
+Assume you are working with ecommerce application, it have cart service, order service, product service, payment service
+if cart service is down means where you will store the products ?
+What will happen if kafka is down ? then where will store the messages ?
+
+Write the following programs using JDK 1.8 
+Group the employees by city.?
+Find the count of Female & male employees ?

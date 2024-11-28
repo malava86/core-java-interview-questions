@@ -1,0 +1,509 @@
+1) Can you write a program to reverse the words of given string using JDK 1.8 Stream
+  input : "Java is a powerful language";
+  output: "language powerful a is Java";
+  
+2) Can you write a program for implement User Defined Exceptions ?
+ 
+3) Need to find the maximum salary for the employees list.
+ 
+4) Assume you have list of employees have the columns id, name, salary.
+ 
+ int array[]    = {0, 1, 0, 1, 0, 0, 1, 1, 1, 0};
+         printBinaryArray(array); 
+        // Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+		
+ Zeros need to arrange left side 1s need to arrange right side
+ 
+ // Pre Condition is : should not use temporary array & should not sort the array.
+ 
+5)String s = "Welcome";
+        findFrequencyChars(s);
+
+ Write a program to find the number of occurances of each characters
+ 
+6) Find N th highest salary in SQL
+ 
+7) Input : Successfully
+Output: Sucesfly
+Write a program to Remove consecutive repeated char using Jdk 1.7 or Jdk 1.8 .
+
+8) Write a program to find the given string as well balanced string or not
+
+[(()){}] --> valid well balanced
+
+
+[(]()){} --> invalid
+
+9) List<Integer> numbers = Arrays.asList(100,80,50,40,70,90);
+
+Find the 2nd Highest number.
+
+10) List<String> str = {"Amazon", "Japan", "Arabic", "Australia"};
+Write a program to print the words starts with letter A
+
+2nd also find Max Length word and Min Length word from the above list
+
+11) String s = "This is the sample sentence";
+Write a program to reverse the words
+
+output is : sentence sample the is This
+
+12) Find a shortest path - TV Remote Controller
+
+Input:  # [11, 12, 15, 12, 100, 101]
+
+  # Output - 10 clicks
+  
+  11 -- 2 clicks
+  12 -- 1 click
+  15 -- 2 click
+  12 -- 1 click -- back
+ 100 -- 3 click 
+ 101 -- 1 click -- channel +/-
+ 
+13) Write a Java program to count the number of occurrences of a character in a string. 
+Example: String str = "abcadca" Output: {a:3, b:1, c:2, d:1}
+
+List<String> strings = Arrays.asList{"1,2,3,4", "3,5,8","6,8,7"}
+
+output: 1,2,3,4,5,8,6,7
+
+14) Write a program to print the numbers without duplicates.
+
+15) Write another program {6,7,2,8} target 8 --output : {0,2}
+
+Index 0 is pointed with 6 
+Index 2 is pointed with 2 
+
+Hence 6+2 = 8
+Need to print the index for the sum of target
+
+16)Write a program to reverse the LinkedList ?
+
+17) Write a program to print the subarray of maximum sum.
+
+Input : 2,-1,6,-3,7,9,10
+ 
+  
+  6 -3 + 7 + 9 + 10 ---29
+  
+  2 -1 + 6 -3 + 7 + 9 + 10 -- 30
+
+output is : 30
+
+18) Supppose assume that you have 2 CSV files with 10 laksh records, you need to read the records pushing into DB & show the records in the UI
+
+within 1 minute everything need to be happened. How you will handle.
+
+19) Write a program to print the numbers triangle ?
+
+    1    
+   121   
+  12321  
+ 1234321 
+123454321
+
+20) Write a program to print string without duplicate chars.
+   String str = "Success";
+   output: str = Sue
+   
+21) 1st non repeating char program using JDK 1.8 Stream.
+Input : Solutions 
+output is : l
+
+22) Assume that there are 10 threads accessing the resources at a time, 1 thread accessing the particular resource taking more than 1 hour, 
+Now 3rd thread also want the same resource in this case how you will handle ?
+
+23) Assume that you have an single linked list, there are 1000 nodes is available without any api how you will get 998 node value ?
+
+24) Find 2 Elements in the Array such that Difference Between them is Largest
+List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
+
+10 - 15 --> -5
+10 - 8 -->  2
+
+25) SQL query to find the highest salary employee details from each department
+
+26) You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0. 
+
+Example 1: Input: prices = [7,1,5,3,6,4] Output: 5
+
+ Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5 Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell Example 2: Input: prices = [7,6,4,3,1] Output: 0 Explanation: In this case, no transactions are done and the max profit = 0.
+
+       1 Mon -- 7
+       2 Tue -- 1
+       3 Wed -- 5
+       4 Thu -- 3
+       5 Fri -- 6
+       6 Sat -- 4
+         Sun
+
+27) Input : List<String> str = List.of{"Wipro", "HCL","TCS", "Infosys", "HCL","Wipro"};
+Write a program to find the frequency of the above words.
+output: {Wipro=2, HCL=2, TCS=1, Infosys=1}
+
+
+For the given array of 1's and 0's find the minimum number of swaps required to bring all 1's together
+
+i/p: {0,0,0,1,0,0,1,1,1,0,1} 
+
+as per this input 1 swap is enough
+
+28) Find the middle element in the linked list without using inbuilt function.
+29) Find the max age of employee in list of employee using Java 8 features
+30) write code of singleton class
+31) Find max salary of each department in department table
+
+32) Can you write an SQL query to find the 2nd highest salary of employee based on the department wise.
+
+33) Given an array nums, write a function to move all 0s to the end of it while maintaining the relative order of the non-zero elements.
+ 
+Input: nums = [0, 1, 0, 3, 12]
+Output: [1, 3, 12, 0, 0]
+
+34) Find the second-highest salary of an employee in SQL
+ 
+employee_id	employee_name	salary
+1		John		5000
+2		Alice		7000
+3		Bob			6000
+4		David		9000
+5		Carol		8000
+
+35) Write a program to find the even numbers from the below array then multiply with 2 and then print the result 
+
+ int numbers[] = {1,2,3,4,5,6,7,8,9,10};
+ 
+ 
+36) Write an SQL Query to find the maximum length of organization name. 
+ Assume this the table columns, 
+
+Table name is : candidate
+Colunms are : id, first_Name, last_Name, current_Org
+
+37)Write a program, Lets take array of strings, using JDK 1.8 features print only the last string.
+Input : List<String> list = List.of("a","b","c");
+Output: "c"
+
+38)Write another program, Lets take a string Good Morning, need to reverse the string 
+Using JDK 1.8 Features ?
+
+String str = "Good Morning";
+output : gninroM dooG
+
+39)Find the thrid-highest salary of an employee in SQL
+
+Assume you have an list of employee objects, Write a program to find the third-highest salary of an employee
+
+ https://leetcode.com/problemset/database/
+ https://leetcode.com/problemset/
+ https://leetcode.com/studyplan/leetcode-75/
+ https://leetcode.com/problem-list/hash-table/
+ https://leetcode.com/problem-list/string/
+ https://leetcode.com/problem-list/array/
+ https://leetcode.com/problem-list/dynamic-programming/
+ https://leetcode.com/problem-list/linked-list/
+ 
+40) Given an integer array nums, find the 
+subarray
+with the largest sum, and return its sum.
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+
+41) interface A{
+  public void sum(){
+     System.out.println("calling from A");    
+  }
+}
+interface B 
+{
+  public void sum(){
+     System.out.println("calling from B");    
+  }
+}
+interface C 
+{
+public void sum(){
+     System.out.println("calling from C");    
+  }
+}
+class D implements A, B, C
+{
+  public static void main(String args[]){
+     A a1 = new D();
+	 a1.sum();
+  }
+}
+
+
+How to call the sum method from A interface ?
+
+42) Write & implement singleton pattern in Java ?
+
+43) class Logger implements Cloneable
+{
+
+  public static volatile Logger instance = null;
+  
+  private Logger(){
+    throw new RunTimeException("don't vialate from Constructor");
+  }
+  
+  
+  public Logger getInstance(){
+   
+      Synchronized(Logger.class){
+	   
+	    if(instance == null){
+		   instance = new Logger();
+		}
+	    
+	  }
+  
+    return this.instance;
+  }
+  
+  public Logger clone(){
+  
+    return this.instance;
+  }
+  
+  public void getMessage(String message)
+  {
+  
+     System.out.println(message);
+  }
+  
+   public static void main(String args[]){
+      
+   }
+ 
+ }
+ 
+44) SQL questions:
+
+Table: Teacher
+
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| teacher_id  | int  |
+| subject_id  | int  |
+| dept_id     | int  |
++-------------+------+
+(subject_id, dept_id) is the primary key (combinations of columns with unique values) of this table.
+Each row in this table indicates that the teacher with teacher_id teaches the subject subject_id in the department dept_id.
+ 
+
+Write a solution to calculate the number of unique subjects each teacher teaches in the university.
+
+Return the result table in any order.
+
+The result format is shown in the following example.
+
+ 
+
+Example 1:
+
+Input: 
+Teacher table:
++------------+------------+---------+
+| teacher_id | subject_id | dept_id |
++------------+------------+---------+
+| 1          | 2          | 3       |
+| 1          | 2          | 4       |
+| 1          | 3          | 3       |
+| 2          | 1          | 1       |
+| 2          | 2          | 1       |
+| 2          | 3          | 1       |
+| 2          | 4          | 1       |
++------------+------------+---------+
+Output:  
++------------+-----+
+| teacher_id | cnt |
++------------+-----+
+| 1          | 2   |
+| 2          | 4   |
++------------+-----+
+Explanation: 
+Teacher 1:
+  - They teach subject 2 in departments 3 and 4.
+  - They teach subject 3 in department 3.
+Teacher 2:
+  - They teach subject 1 in department 1.
+  - They teach subject 2 in department 1.
+  - They teach subject 3 in department 1.
+  - They teach subject 4 in department 1.
+ https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/
+45) Find duplicate/non duplicate.
+46) Find sum of salary of employees based on department name.
+47) common elements and non-common elements between two array lists
+48) show top 5 records/last 5 records of employees out of 10 records
+49) update employee object department name to 'IBM' if salary is less than 5000 thousand
+50) string str="123 ABC xy7"; O/P: String str = "123 xy7"; Remove the words without digit.
+51) Find the occurrences of 1st non duplicate element in a string using java8
+String str = "PeopLE"
+52) Find and remove the consecutive characters in a string using java8
+String input = "aaabbcddea"
+53)	Reverse the words of the below string using java 8
+54)	String str="welcome to sony india software";
+55)	Using java 8 String str = "AAAAABBCCAA"; //o/p:"5A2B2C2A" using java8
+56)	Given a string, does "SONY" appear in the middle of the string?
+	To define middle, we'll say that the number of chars to the left and
+	right of the "SONY" must differ by at most one.
+	String str1 = AASONYBB
+	String str2 = abcSONYde
+	String str3 = tSONYAbCD
+57) Datastructure(In all cases calculate Time and space complexity):
+===============================================================
+58) WAP to add two list of integers using Single linked list?
+59) WAP to sort the array with best and worst time complexity?
+60) WAP a program to add a node in single linked list?
+61) WAP to find pairs from given array which is equivalent to sum provided?
+62) WAP to find first repitative number in array?
+63) WAP to search an element in linked list ?
+64) WAP to Print all nodes in Circular linked list?
+65) WAP to generate binary numbers upto N=7(Hint: FIFO mechanism can help u achieve this)?
+66) WAP to transpose a matrix?
+67) WAP to implement two stacks using an array?
+
+Java 7:
+========
+68) WAP to reverse a string ?
+69) Find all the palindromic substring for a string and print the longest substring?
+70) Write a code to illustrate SOLID Principles?
+71) Merge two sorted arrays ?
+72) Write a program to sort the employees by username length wise ?
+
+ Employee e1 = new Employee("Sachin",8144260718l);
+ Employee e2 = new Employee("Tendulkar",8144260719l);
+ Employee e3 = new Employee("Virat",8144260717l);
+	
+output:
+
+ Employee e3 = new Employee("Virat",8144260717l);
+ Employee e1 = new Employee("Sachin",8144260718l);
+ Employee e2 = new Employee("Tendulkar",8144260719l);
+73) class Employee{
+    String name;
+    Integer salary;
+}
+
+List<Employee> empList = Arrays.asList(
+														new Employee("Ram" , 10000), 
+                            new Employee("Raj" , 5000), 
+                            new Employee("Vishnu" , 500)
+                        );
+
+
+ Derive another list from empList , which should  contain only employee names, using java 8
+
+74) Sort empList in the descending order of salary 
+
+75) Find the second highest salary from empList list using java8
+
+76) Print the names in comma separated format (output shuld be a string that contains all the employee names whose salary is higher than 600)
+
+77) class TestClass{
+    
+    public static void main(String[] args) { 
+
+          print(null);
+    }
+
+
+
+    public static void print(Object o){
+        System.out.println("Object -> "+o);
+        }
+
+    public static void print(String s){
+        System.out.println("String -> "+s);
+    }
+    
+    public static void print(Integer s){
+        System.out.println("Integer -> "+s);
+    }
+  
+}
+78) Given a sorted array of integers and a target integer, find the first occurrence of the target and return its index. Return -1 if the target is not in the array.
+
+Input:
+
+    arr = [1, 3, 3, 3, 3, 6, 10, 10, 10, 100]
+    target = 3
+
+Output: 1
+
+Explanation: The first occurrence of 3 is at index 1.
+
+Input:
+
+    arr = [2, 3, 5, 7, 11, 13, 17, 19]
+    target = 6
+
+Output: -1
+
+Explanation: 6 does not exist in the array.
+79) Same program need to write with Binary Search
+80) Write a program to find the longest substring from the following 2 Strings ?
+  
+  Input:
+  
+  String str1 = "abcdefgh";
+  String str2 = "xyzefabcd";
+  
+  Output is: abcd
+
+Explanation:
+
+  Both Str1 & Str2 abcd is occurred, ef is occurred. 
+  But longest substring is abcd.
+81) SQL Question 
+
+Employee
+ --> Managers, Software Engineers
+ --> Find the employees with the same manager. 
+ 
+ Employee 
+  --> name, id, type of employee --> either as Manager or Sofware Engineers
+  
+  10 Rows --> out of 10, 3 rows has type is Manager, rest 7 have type is SE.
+  
+  Task is Software Engineers need to group, Similarly Managers need to group.
+  
+  A, 100, M ,  200
+  B, 101, SE   100
+  C, 104, M    201
+  D, 105, SE   108
+  E, 106, M
+  F, 108, SE 
+  
+----------------
+
+Each of the Managers below them how many of Software Engineers are assigned. 
+
+Print the count of Software Engineers for Each Managers.
+82) One more program 
+
+Write a program to Find the Pairs of Sum 
+
+  Input :
+  
+  int a[] = {5,6,9,3,4,2,-1};
+  int n = 8;
+  
+  Output:
+  
+    {5,3}
+	{6,2}
+	{9,-1}
+	
+  Explanation: 
+   
+   In the above array need to find any two pairs sum is equal to 8.
+  
+     5+3 = 8
+	 6+2 = 8 
+	 9 -1 = 8

@@ -1,0 +1,10 @@
+LTI MindTree 1st Level Java Technical Interview
+***********************************************
+Write a program to find the maximum salary of an employee using JDK 1.8 Stream features ?
+What is the real time usage of immutable class in Java ?
+What is Functional Interface ? what is the usage lampda expressions ?
+Can you please explain JWT Token implementations ?
+How will restrict the user based on the submit request inside post method or put method ?
+
+What is the usage of @Qualifier annotations ? 
+Microservice will work shared databases ?

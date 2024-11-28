@@ -1,0 +1,61 @@
+Below are the topics and sample interview questions.  
+
+1.	Core Java Concepts
+
+·      OOPS, Collection Framework, Data Structure, String and Arrays.
+
+2.	Java 8
+
+Functional interfaces, lambda expressions, stream apis and it’s implementation
+•	
+Practical implementation on stream operations like transformation, sorting, filtering and collecting.
+
+3.	Problem solving:
+
+Problems to solve in any java version based onto List, Array and String.
+•	
+Problems to solve in java8 .
+
+4.	Spring Boot/ REST APIs/Microservices
+
+Spring Boot advance concepts
+•	
+Handle multi-profiling and configurations in Spring boot.
+•	
+Microservices concepts and implementations.
+•	
+Design patterns used in microservices.
+
+5.	Database/JPA  – Below Average
+
+Spring Transaction concepts.
+•	
+Transaction management in microservices.
+
+Solve using java 8:
+
+1) Find duplicate/non duplicate.
+2) Find sum of salary of employees based on department name.
+3) common elements and non-common elements between two array lists
+4) show top 5 records/last 5 records of employees out of 10 records
+5) update employee object department name to 'IBM' if salary is less than 5000 thousand
+6) string str="123 ABC xy7"; O/P: String str = "123 xy7"; Remove the words without digit.
+Round 1:
+
+    1. Find the occurrences of 1st non duplicate element in a string using java8
+String str = "PeopLE"
+ 2. Find and remove the consecutive characters in a string using java8
+String input = "aaabbcddea"
+
+Round 2:
+
+1.	Reverse the words of the below string using java 8
+2.	String str="welcome to sony india software";
+3.	Using java 8 String str = "AAAAABBCCAA"; //o/p:"5A2B2C2A" using java8
+4.	Given a string, does "SONY" appear in the middle of the string?
+5.	To define middle, we'll say that the number of chars to the left and
+6.	right of the "SONY" must differ by at most one.
+7.	String str1 = AASONYBB
+8.	String str2 = abcSONYde
+9.	String str3 = tSONYAbCD
+

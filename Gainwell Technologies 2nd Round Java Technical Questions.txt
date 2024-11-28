@@ -1,0 +1,39 @@
+id, name
+
+100 Malava e1
+101 Ashwin e2
+102 Vinay
+
+if empList.contains(e1) then
+
+   s.o.p (" He is an employee"+ e1.toString());
+   
+Optional<Employee> secondHighestEmployee = empList.stream().sorted(Comparator.comparingInt(Employee::salary).reversed()).skip(1).findFirst();
+
+secondHighestEmployee.ifPresent(System.out::println);
+
+Are you having experience with Angular 13 ?
+
+What are the new features with Angular 13.
+
+Have you done any deployment in AWS ?
+
+Are you having any professional experience with AWS ?
+
+Have you ever chance to work with Token Service ?
+
+Have you ever worked with Kafka ?
+
+Diff. b/w MonoLithic Product & MicroService Product.
+
+Roles & Responsibility of Load Balancer in Microservices ?
+
+How will you get the logs in Microservices ?
+
+Suppose 1 microservice is fail but you want to perform some transactions what kind of design pattern you will use ?
+
+Suppose you want to propate the request to different microservice in this case what kind of design pattern you will use ?
+
+
+
+

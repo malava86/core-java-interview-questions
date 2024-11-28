@@ -1,0 +1,22 @@
+Birla Soft 1st Round Java Technical Interview Questions
+********************************************************
+What are the Java 17 Features available in Java ?
+What are the JDK 1.8 Features available in Java ?
+What is the difference between Single Stream & Parallel Stream in Java 1.8 ?
+What is the difference between Consumer & Supplier Interface in Java 1.8 ?
+In Which case you will use Consumer & Supplier interface ?
+What is the usage of Functional Interface in Java 1.8 ?
+Write a program to find the frequency for the following string.
+String str = ""aaaccffrrttt;
+output  =  a3c2f2r2t3
+What is bean in Spring ?
+Do you know the bean life cyle in Spring ?
+What is Bean Factory in Spring ?
+What is Application Context in Spring ?
+What is IOC Container in Spring ?
+What are the different types of IOC containers in Spring ?
+What is Dependency Injection in Spring ?
+Do you know setter injection ?
+What is the difference between Controller & RestController ?
+How will you create our own euroka server ?
+How will convert microservice as Fault Tolerance architecture ?

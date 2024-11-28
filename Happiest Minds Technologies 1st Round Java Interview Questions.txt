@@ -1,0 +1,52 @@
+Happiest Minds Technologies 1st Round Java Interview Questions
+**************************************************************
+What is functional interface ?
+
+What are the challenges based migrating Java 8 to Java 17 ?
+
+What are the new features available in Java 17 ?
+
+Assume you have list of employee from that you need to generate list whoever having experience is greater 5 years & less then 5 years in separate list using Java 8 Stream ? 
+
+Map<Integer,List<Employee>> result1  = listEmployee.stream().filter(e -> (e.experience >= 5)).collect(Collectors.groupingBy(Employee::experience,Collectors.toList()));
+
+Map<Integer,List<Employee>> result2  = listEmployee.stream().filter(e -> (e.experience < 5)).collect(Collectors.groupingBy(Employee::experience,Collectors.toList()));
+
+Can you explain about Factory Pattern ?
+
+Can you explain about Singleton Pattern ?
+
+public class Logger
+{
+   public static volatile Logger instance = null;
+   
+   private Logger()
+   {
+   }
+   
+   public static Logger getInstance()
+   {
+   
+      if(instance == null)
+	  {
+	    instance = new Logger();
+	  }
+	 return instance;
+   }
+   
+     
+ }
+ 
+ Is it mandatory to give volatile keyword for Singleton class ?
+ 
+ What are the suggestions you will give performance in db related ?
+ 
+ What are the suggestions you will give performance in java side ?
+ 
+ How will you predict heap memory issues ?
+ 
+ How to keep keyword data type in elasticsearch for Spring Boot Project ?
+ 
+ What is the Marker Interface in Java ?
+ 
+ What is the usage of Marker Interface ?

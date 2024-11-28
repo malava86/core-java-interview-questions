@@ -1,0 +1,37 @@
+List of emp.
+
+id, name, salary.
+
+get name of first 10 employees sorted in ascending order based on salary,
+
+having salary greater than 10,000/-
+
+ public static int count = 0;
+ 
+  empList.stream().sorted(Comparator.comparingInt(Employee::salary).filter(e -> {e.salary >=10000}).limit(10).map(emp -> emp.name).collect(Collectors.toList());
+  
+  filter(e -> e.salary >=10000) is called what type of functional interface ?
+  
+  map(emp -> emp.name) is called what type of functional interface ?
+  
+  Do you know about predicate interface ?
+  
+  Do you know about supplier interface ?
+  
+  Do you know about consumer interface ?
+  
+Do you know the what are the propogation levels in @Transactional annotations.?
+
+Have you worked distributed transacation management ?
+
+How many approaches inside SAGA Pattern ?
+
+Have you worked with Asynchornous API calls ?
+
+Have you used Executor Framework ?
+
+
+
+
+  
+  

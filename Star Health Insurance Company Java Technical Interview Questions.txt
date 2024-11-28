@@ -1,0 +1,16 @@
+Star Health Insurance Company Java Technical Interview Questions
+****************************************************************
+What are the new features introduced for JDK 1.8 ? what is the main usages ?
+How you are validating the Token 
+Who is generating the bearer token ?
+What is the usage of @Configuration annotations.
+How many consumers you are using for Kafka ?
+How many brokers you are using for Kafka ?
+How you are partitioning the Kafka ?
+There are so many messaging systems is there right ? Why you have used Kafka ?
+What is API Gateway ?
+How to use OAuth Token ?
+How to use JWT Token ?
+  
+  
+  

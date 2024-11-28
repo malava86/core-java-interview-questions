@@ -1,0 +1,12 @@
+(1, 2, 3, 4, 2, 5, 6, 4)
+1.Print the duplicate numbers --> 2 , 4
+2.Sum the even numbers using stream --> 
+3. Difference between HashMap & TreeMap.
+4. Difference between predicate & Map interface.
+5. How Spring Security has implemented.
+6. What are the design patterns you have worked in Microservice Architecture.
+7. What is dependency injection ?
+8. Life of Cycle of Hooks in Angular ?
+9. Dynamic Binding in Angular ?
+10. Life cyle of Thread.
+11. Usage of wait() and notify() methods from the Object class.
