@@ -1,0 +1,33 @@
+1)Write a program to reverse the following String without changing the position of the special chars.
+
+Input: 
+
+ String str = "Ab#cdefg@i"; 
+ 
+ output : 
+  ig#fedcb@A
+  
+  Explanation: 
+     1st we need to take the actual string like this 
+	    Abcdefgi
+	 Then reverse the string like this 
+		igfedcbA
+	 Then after replace the special chars in the same position in the above resersed string.
+	    ig#fedcb@A
+	
+Note: 
+
+  Precondition need to use JDK 1.8 Stream features.
+  
+What is predicate interface ? What method contains inside ?
+What is Function interface ? what are the arguments it is having ?
+What is the usage of map function interface ?
+Diff. b/w Controller & Rest Controller ?
+What are the operation of @SpringBootApplication annotation ?
+Assume you have an custom class, in SpringBoot how you will convert as Bean object ?
+What are the annotation you will use ?
+Suppose you have 2 bean object with same names then how you will predict ?
+What is the difference between Mono Lithic & MicroServices ?
+What are the different microserices patterns will be there ?
+Where to register microserices ?
+What is load balancer in microserices ?

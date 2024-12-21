@@ -1,0 +1,11 @@
+Cognizant 1st Round Java Interview Questions
+********************************************
+
+Have you faced any memory issues in your project ?
+It is possible mention default methods inside normal interface ?
+Instead of @Service can i use @Component will it work ?
+Instead of @Repository can i use @Component will it work ?
+Suppose there are 4 microservice is running, you are sending transaction to the microservices
+Now it is reached 3rd microservice but 4th microservice is down 
+If 4th  microservice is down means what are the steps you will do ?
+Why they have used Kafka why not Rabbit MQ ?

@@ -1,0 +1,6 @@
+Infosys 1st Round Java Interview Questions
+******************************************
+What are the types of Indexs is available in MongoDB ?
+What is collection in MongoDB ?
+How to create index in MongoDB ?
+How to create 1 to Many relationship in MongoDB ?

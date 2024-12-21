@@ -1,0 +1,57 @@
+List<String> l1=Arrays.asList("Apple","Mango","Pineapple","Pear")
+
+Find the longest string from the above list ?
+
+Lest take the following array, to print the target sum indexs of the element.
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+This one we can achive throught 2 pointers approach with increment & decrement and another apporach
+throw HashMap also we can achive.
+
+write a sql query to get count of all employee working in each department and their dept name and dept sal is more than 100000
+
+dept table has dept id, dept name and emp id
+emp table has empid , emp name and emp sal
+
+ Select d1.dept_name, d1.dept_sal, count(e1.emp_id) as count_of_emp
+ From dept d1, emp e1
+ Where d1.emp_id = e1.emp_id and d1.dept_sal >= 100000
+ group by d1.dept_name, d1.dept_sal
+ 
+  Select d1.dept_name, d1.dept_sal, avg(d1.dept_sal) as avg_sal
+ From dept d1, emp e1
+ Where d1.emp_id = e1.emp_id 
+ having (d1.dept_sal >= 100000)
+ group by d1.dept_name, d1.dept_sal
+ 
+ 
+ select IF_NULL()
+ from 
+
+Suppose if i want to send messages 1 kafka producer to 1 Kafka consumer, I don't want to show the messages to any one then what security i need to maintaion ?
+
+What are the architecture do you know in MicroServices ?
+
+can you please explain the SAGA Pattern with Orchestration MicroServices Architecture ?
+
+Can you please explain Completetable Fututre in Java 1.8 ?
+
+Have you heared slicing in Multithreading ?
+
+Suppose if we implement Runnable & Cloneable in Singleton class how will predict the singleton apporach ?
+
+Is it possible to violate from the deep cloning ?
+
+Can you please explain the operations of intermediate & terminal from Stream Feaures.
+
+Can you please explain Parallel Stream Features ?
+
+Can you please explain the memory model in Java ?
+
+What are types of memory is available in Java ?
+
+
+

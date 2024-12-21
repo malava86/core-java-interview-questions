@@ -1,0 +1,27 @@
+2nd Min Number
+1st Non Repeat char
+
+
+1)Stair Case Problem 
+  you can claim either 1 step or 2 step or 3 step 
+  and you need to find the total numbers of ways to reach the Nth step.
+  
+  1+1+1+1 = 4
+  2+2 = 4
+  3+1 = 4
+  
+2) Trapping rain water, 
+    
+3) Find the Minimum size subarray having sum is equals to target 
+
+4) valid parantheses problem.
+
+5) You need to find the largest rectangle in a histogram.
+
+6) What's the best time for buy & sell the stock 
+
+7) There is daily temperature problem
+
+8) Find the longest substring which is palindrome
+
+Leet code & geeksforgeeks 

@@ -1,0 +1,110 @@
+1) Let's take the following array as Input and the output should be how many number of swaps is required to move all 1's should goes to right side.
+
+a[] = {0,0,1,1,0,0,1,0,1,0,1,0,0,1}
+
+No.of.iteration
+***************
+ {0,0,1,1,0,0,1,0,1,0,1,0,0,1}
+ 
+
+Solution : need to give minimum no of swaps is required.
+
+
+2) Lets take the following array if we give the target as 3 means need to shift last 3 elements to first 3 indexs. Similarly First 3 elements need to swap to last 3 indexs.
+
+Example:
+
+a[] = {1,2,3,4,5,6,7}
+
+target = 3
+
+reverseArray(a,target);
+
+If the target is 3 means 5,6,7 need to swap to 1,2,3 indexs
+
+  -- 5,6,7,1,2,3,4
+
+If the target is 4 means 4,5,6,7 need to swap to 1,2,3,4 indexs
+
+  -- 4,5,6,7,1,2,3
+  
+If the target is 2 means 6,7 need to swap to 1,2 indexs
+    
+	 6,7,1,2,3,4,5
+	
+if the target is 5 means 3,4,5,6,7 need to replace 1,2,3,4,5 indexs
+    
+	 3,4,5,6,7,1,2
+	
+Precondition: 
+  Need to use JDK1.8 features, should not use any temporary array.
+  Within the single array only need to swap the elements across the indexs.
+	
+if multiple threads are running synchronized & lock will leads performance issues instead of that we can use executor frameworks are you aware of that ?
+
+Singleton class should not use Synchronized block ?
+
+How to create Thread in Singleton class ?
+
+Why we need singleton class ? what are the real time examples ?
+
+
+I have some duplicate numbers but i want to store as unique which collection i need to use ?
+
+Suppose I want to maintain the desending order with unique which collection i need to use ?
+
+When ArrayList can use ? When LinkedList can use ?
+
+At which situation we can use ArrayList ? At what situation we can use LinkedList ?
+
+How HashSet is predict the duplicates in the background ?
+
+How HashSet is working internally ?
+
+How TreeMap is working internally ?
+
+I want to maintain the order and should not allow duplicates then which collection i can use ?
+
+How LinkedHashMap is working internally ?
+
+How LinkedHashSet is workng internally ?
+
+What will happen if the file resources are not yet closed means ?
+
+Can you please explain recent any complishments or development ?
+
+
+Main thread have some child threads... now all the child threads are running..Suppose if i close Main thread.. what will happen child threads will run or not ?
+
+What is the usage of Reflection API ?
+
+Difference between Controller & RestController ?
+
+If Out of Memory issue should not come means what are the steps we need to take care ?
+
+What is Kafka Token ?
+
+What is Kafka Consumer Group ?
+
+Suppose 1 service is down, but you want to send messages to the service then how you will do ?
+
+How you will do the partition in Kafka ?
+	  
+
+SQL Question :
+
+   Lets having the records like the following
+   
+        Customer Name, Product Name
+         Suresh      , Laptop
+		 Ramesh      , Laptop
+		 Ganesh      , Mobile
+	
+	Without using any built in function need to show the output
+	
+	     Product Name
+		  Laptop
+		  Mobile
+	
+	
+  

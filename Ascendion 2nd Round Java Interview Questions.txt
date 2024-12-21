@@ -1,0 +1,15 @@
+Ascendion 2nd Round Java Interview Questions
+*********************************************
+How to create index in Mongo DB ?
+How index is working in Mongo DB ?
+Have you write any aggregation query in Mongo DB ?
+How you are maintaining & validating certificates across microservices ?
+Difference between API Gateway & Service Mesh ?
+Have you implemented oAuth ?
+Have you implemented JWT ?
+How you will validate oAuth token ?
+How the Spring Boot Application works internally ?
+Have you worked with Spring WebFlex Asynchronous API calls with React Application ?
+if 5 partition is there 2 Consumer is required or 5 consumer is required ?
+What is Consumer Group ?
+How to predict duplicate messages in Kafka ?

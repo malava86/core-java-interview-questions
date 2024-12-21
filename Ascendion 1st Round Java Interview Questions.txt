@@ -1,0 +1,25 @@
+
+The following list of strings 
+need to do Sorting by Alphabetic order & find no of occurances
+
+Input:
+
+"Pen", "Eraser", "NoteBook", "Pen", "Pencil", "Stapler", "NoteBook", "Pencil"
+
+--> Need to sort the above strings in alphabetic order
+--> Need to find the frequency of the above strings
+
+Output:
+ 
+Eraser-1
+NoteBook-2
+Pen-2
+Pencil-2
+Stapler-1
+
+Precondition: need to use jdk1.8 stream features.
+
+It is possible to set null in StringBuilder after initiallized ?
+Solution 
+ StringBuilder sb = new StringBuilder("Hello");
+ sb = null;

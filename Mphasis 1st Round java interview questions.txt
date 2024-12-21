@@ -1,0 +1,6 @@
+Can you please explain about Proxy Pattern in Java ?
+What are the memory models you know in Java ?
+What are the types of garbage collections you know in Java ?
+Can you please write the program take one string find how many vowels present with count of vowels.
+Input: welcome
+Output: {e=2, o=1}
