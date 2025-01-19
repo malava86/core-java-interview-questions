@@ -1,0 +1,31 @@
+Fibonacci Series.
+Pring 1 to 10 numbers using JDK 1.8 features.
+
+Let's assume we have the following table
+
+employee
+
+e_id,  e_name,  s_id
+
+1      Malava   1000
+2      Rajesh   1000
+1000   Kumar    2000
+
+need to Find Max Reportee name of the Persons.
+
+S-id   e-name  
+1000   Kumar 
+
+select 
+from employee
+group by s_id 
+
+What is Offset in Kafka ?
+What is Kafka Partition ?
+
+
+
+ 
+
+
+

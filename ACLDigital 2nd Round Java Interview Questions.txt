@@ -1,0 +1,10 @@
+10,1,55,78,45,63,145
+
+K=3
+
+output:
+   145,78,63
+   
+Diff. b/w Intercepter & Filters ?
+
+Can you explain the Lift problem for 10 Floors.

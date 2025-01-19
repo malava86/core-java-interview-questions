@@ -1,0 +1,30 @@
+input: ["apple","banana","pear","kiwi"]
+Expected output:
+4=[pear,kiwi] , 5=[apple],6=[banana]
+
+
+Arrays.asList("One", "2wo", "3hree", "Four", "5ive", "Six");
+ouput
+2wo
+3hree
+5ive
+
+
+http://localhost:8080/employees/getEmployee/1
+
+restTemplate.("http://localhost:8080/employees/getEmployee/1")
+
+ 
+  @AutoWired
+  RestTemplate restTemplate;
+
+ @GetMapping
+ public void getEmployeeDetails(){
+ 
+ 
+  Employee emp = restTemplate.("http://localhost:8080/employees/getEmployee/1");
+ 
+ }
+ 
+ How you will write junit code for mocking dao layer to 1 method call ?
+ Can you please write the code snippet for that.
